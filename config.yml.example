@@ -1,0 +1,19 @@
+development:
+  password: 123456789
+  theme_id: "123456789"
+  store: my_store.myshopify.com
+  timeout: 30s
+  ignore_files:
+  - config/settings_data.json
+  - node_modules/*
+  - sass/*
+  - js/*
+  - gulpfile.js
+  - package.json
+  - README.md
+  - .DS_Store
+production:
+  password: 123456789
+  theme_id: "123456789"
+  store: my_store.myshopify.com
+  timeout: 30s
